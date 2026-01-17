@@ -16,11 +16,12 @@
         <h1>Master Your Skills</h1>
         <p>Enter your details to get the full ebook sent to your inbox instantly.</p>
         
-        <form action="https://ebookfunnel.infinityfree.me/autoresponder.php" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <button type="submit">Get Free Ebook</button>
+ <form action="https://ebookfunnel.infinityfree.me/autoresponder.php" method="POST">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <button type="submit">Submit</button>
 </form>
+
 
         <div class="preview-section">
             <p class="preview-title">Not ready yet? Read a sample:</p>
@@ -33,20 +34,11 @@
         <p class="footer-text">Secure & Private. Unsubscribe at any time.</p>
     </div>
 
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-
-    <script>
-        const form = document.getElementById('mc-embedded-subscribe-form');
-        form.addEventListener('submit', function() {
-            // Redirects to your thank you page after 500ms
-            setTimeout(function() {
-                window.location.href = "thanks.html";
-            }, 500);
-        });
-    </script>
+   
 
 </body>
 </html>
+
 
 
 
